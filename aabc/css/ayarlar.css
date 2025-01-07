@@ -1,0 +1,38 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-image: url(/imgs/p3.jpg);
+    background-size:cover ;
+}
+
+#ayarlar{
+   
+    margin: 60px;
+
+}
+#h3 {
+    font-size: 30px;
+    
+}
+#bar a {
+    font-size: 20px;
+}
+
+#bar a:hover {
+    font-size: 25px;
+}
+
+#bar i {
+    font-size: 25px;
+    color: #e70634;
+}

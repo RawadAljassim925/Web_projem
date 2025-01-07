@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #000;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-color: #080808;
+    background-image: url(/imgs/k-f5.jpg);
+     background-size: cover;  
+     font-size: 18px;
+}
+h3{
+    color:#9EB23B ;
+}
+
+.div{
+    display: flex;
+    padding: 25px;
+    position: relative;
+    left: 10%;
+    top:60px;
+    width:70%;
+    height:70%;
+   background-color: #fff;
+   opacity: 0.9;
+   border-radius:15px ;
+   margin: 50px;
+  
+}
+img{
+    border-radius:90% ;
+}
+.fontawesome a{
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}

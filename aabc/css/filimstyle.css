@@ -1,0 +1,252 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    background-color: #080808;
+}
+img{
+    border-radius:15px ;
+    position: relative;
+}
+.img-i{
+    position: absolute;
+    color: gold;
+    /* color: #e70634; */
+    font-size: 35px;
+    z-index: 1;
+    background-color: #444;
+    border-radius: 150px;
+}
+.img-h{
+    position: absolute;
+     color: #e70634; 
+    font-size: 35px;
+    z-index: 1;
+    background-color: #444;
+    border-radius: 250px;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*////////////////////////////////////////////navbar*/
+.navbar {
+    background-color: #080808;
+}
+
+#navbar input {
+    background-color: #444;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+
+
+}
+
+#navbar form {
+    background-color: #444;
+    outline: none;
+    border-radius: 50px;
+}
+#navbar input{
+  
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+   
+}
+#logo {
+    position: relative;
+    left: -265px;
+    color: #e70634;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-family: 'Monoton';
+
+}
+
+#logo span {
+    position: relative;
+    color: #e70634;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    font-family: 'Monoton';
+}
+
+#input {
+    outline: none;
+    cursor: pointer;
+
+}
+
+#bar a {
+    font-size: 20px;
+}
+
+#bar a:hover {
+    font-size: 25px;
+}
+
+#bar i {
+    font-size: 25px;
+    color: #e70634;
+}
+
+.img-b {
+     margin-top: 60px;
+     transition: all 1s ease-in-out;
+     position: relative;
+
+}
+.img-b:hover{
+    margin-top: 70px;
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+ .img-b .title {
+    position: absolute;
+    top: 285px;
+    left: 30px;
+    font-size: 30px;
+   font-weight:bold;
+    color:#e70634;
+    /* background-color: #ccc; */
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+     opacity:0; 
+}
+.img-b .p {
+    position: absolute;
+    padding: 10px;
+    top: 325px;
+    left: 30px;
+    font-size: 10px;
+    stroke-width:bold;
+    background-color:#080808;
+    transition: all 1s ease-in-out;
+    border-radius: 10px;
+     opacity: 0; 
+}
+.img-b .button {
+    position: absolute;
+    padding: 2px 15px;
+    top: 410px;
+    left: 30px;
+    font-size: 20px;
+    stroke-width:bold;
+    background:linear-gradient(#080808 ,#e70634, #080808  );
+    border: none;
+    border-radius: 15px;
+    transition: all 1s ease-in-out;
+      opacity: 0;  
+}
+ .img-b:hover .title,
+ .img-b:hover .p,
+ .img-b:hover .button  {
+    opacity:0.9;
+}
+
+
+.foto{
+    width: 900px;
+    position: relative;
+    top: 80px;
+    background:linear-gradient(#080808 ,#e70634, #080808  );
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+.foto button{
+    position: absolute;
+    display: flex;
+    top: 450px;
+    right: 50px;
+    margin-left: 20px;
+    background:linear-gradient(#080808 ,#e70634, #080808  );
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+}
+.foto h2{
+    position: absolute;
+    display: flex;
+    top: 300px;
+    margin-left: 20px;
+
+}
+.foto p{
+    position: absolute;
+    display: flex;
+    top: 350px;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+
+/*////////////////////////////////////////////////////*/
+
+.bo-x {
+    margin: 10px;
+}
+
+/******************************/
+#İletişim-bilgileri a {
+    font-size: 25px;
+    color: gold;
+   
+}
+#İletişim-bilgileri2 {
+    position: relative;
+    justify-content: end;
+}
+
+#İletişim-bilgileri a:hover {
+    color: #e70634;
+    line-height: 1;
+    padding: 5px ;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#İletişim-bilgileri i{
+    color: gold;
+    background-color: #444;
+    border-radius: 50%;
+    padding: 8px ;
+   
+
+}
+#İletişim-bilgileri i:hover {
+    color: #e70634;
+    line-height: 1;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.1s;
+}

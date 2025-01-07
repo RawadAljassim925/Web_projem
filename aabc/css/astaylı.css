@@ -1,0 +1,30 @@
+
+
+
+.hover-foto{
+    width:"650px"; 
+    height:"500px";
+    color: aliceblue;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #080808;
+    /* border: 3px solid #e70634; */
+    border-radius: 5px;
+    
+   
+}
+.hover-li{ 
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e70634;
+     border-radius:10px 0 ;
+}
+.hover-p{
+    text-align: start;
+    margin:20px;
+}
+.hover-img{
+    border: 1px solid #e70634;
+}
